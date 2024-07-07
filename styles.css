@@ -1,0 +1,170 @@
+
+.head1 {
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    font-weight: bold;
+}
+
+.head2 {
+    font-size: 17px;
+    margin-left: 10px;
+    color: #ffffff;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+body {
+    margin: 0 auto;
+    background-position: center;
+    background-size: contain;
+    background-image: url('nfs_bg.jpg');
+    font-weight: bold;
+    background-size: 100%;
+    vertical-align: top; 
+    border-left: #FFFFFF 20px solid;
+    border-right: #FFFFFF 20px solid;
+    border-top: #FFFFFF 15px solid;
+    padding: 25px 10px 10px 10px;
+    height:100%;
+    box-shadow: 2px 2px 2px;
+    opacity: 0.9; 
+    filter: alpha(opacity=20);
+}
+
+.menu {
+    position: sticky;
+    top: 0;
+    background-color: #0d0099ab;
+    padding: 10px 0px 10px 0px;
+    color: white;
+    margin: 0 auto;
+    overflow: hidden;
+    font-weight: bold;
+}
+
+.menu a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.menu-log {
+    right: auto;
+    float: right;
+    font-weight: bold;
+}
+
+footer {
+    width: 93%;
+    background-color: #000;
+    color: #fff;
+    position: absolute;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.body_sec {
+    margin-left: 20px;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
